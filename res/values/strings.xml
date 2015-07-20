@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">AndroidSettingDemoAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="sound_settings">Sound</string>
+    <string name="display_settings">Display</string>
+    
+    <string name="brightness_automode">Brightness Auto</string>
+    
+    <!-- Button label for generic cancel action -->
+    <string name="cancel">Cancel</string>
+    
+    <string name="dlg_ok">OK</string>
+   
+    <!-- HTTP proxy settings title -->
+    <string name="proxy_settings_title">Proxy settings</string>
+    <!-- HTTP proxy settings. Button to clear the proxy box. -->
+    <string name="proxy_clear_text">Clear</string>
+    <!-- HTTP proxy settings. The port number label. -->
+    <string name="proxy_port_label">Proxy port</string>
+    <!-- HTTP proxy settings. The hint text field for port. -->
+    <string name="proxy_port_hint" translatable="false">8080</string>
+    <!-- HTTP proxy settings. The exclusion list label. -->
+    <string name="proxy_exclusionlist_label">Bypass proxy for</string>
+    <!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT=50]-->
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <!-- HTTP proxy settings. The button to restore the defaults. -->
+    <string name="proxy_defaultView_text">Restore defaults</string>
+    <!-- HTTP proxy settings. The button to save. -->
+    <string name="proxy_action_text">Done</string>
+    <!-- HTTP proxy settings. The text field for the hostname -->
+    <string name="proxy_hostname_label">Proxy hostname</string>
+    <!-- HTTP proxy settings. The hint text field for the hostname. [CHAR LIMIT=50] -->
+    <string name="proxy_hostname_hint">proxy.example.com</string>
+    <!-- HTTP proxy settings. Title if there is an error-->
+    <string name="proxy_error">Attention</string>
+    <!-- HTTP proxy settings. Button to get rid of error box-->
+    <string name="proxy_error_dismiss">OK</string>
+    <!-- HTTP proxy settings. The error if the hostname is not valid -->
+    <string name="proxy_error_invalid_host">The hostname you typed isn\'t valid.</string>
+    <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
+    <string name="proxy_error_invalid_exclusion_list">The exclusion list you typed isn\'t properly formatted. Type a comma-separated list of excluded domains.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_port">You need to complete the port field.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_invalid_port">The port you typed isn\'t valid.</string>
+    <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT=100]-->
+    <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
+    
+    
+    
+    <!-- Wi-Fi Settings --> <skip />
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
+    <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
+    <string name="wifi_quick_toggle_summary">Turn on Wi-Fi</string>
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Title of the Wi-fi settings screen -->
+    <string name="wifi_settings_category">Wi-Fi settings</string>
+    <!-- Title of the Wi-fi settings entry in the left top level menu -->
+    <string name="wifi_settings_title">Wi-Fi</string>
+    <!-- Summary text of the Wi-fi settings screen -->
+    <string name="wifi_settings_summary">Set up &amp; manage wireless access points</string>
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi  [CHAR LIMIT=60] -->
+    <string name="wifi_setup_wizard_title">Select Wi-Fi</string>
+    <!-- Summary text when turning Wi-Fi or bluetooth on -->
+    <string name="wifi_starting">Turning Wi-Fi on\u2026</string>
+    <!-- Summary text when turning Wi-Fi or bluetooth off -->
+    <string name="wifi_stopping">Turning off Wi-Fi\u2026</string>
+    <!-- Summary text when Wi-Fi or bluetooth has error -->
+    <string name="wifi_error">Error</string>
+    <!-- Toast message when Wi-Fi or bluetooth is disallowed in airplane mode -->
+    <string name="wifi_in_airplane_mode">In Airplane mode</string>
+    <!-- Toast message when Wi-Fi cannot scan for networks -->
+    <string name="wifi_fail_to_scan">Can\'t scan for networks</string>
+    <!-- Checkbox title for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks">Network notification</string>
+    <!-- Checkbox summary for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks_summary">Notify me when an open network is available</string>
+    <!-- Checkbox title for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection">Avoid poor connections</string>
+    <!-- Checkbox summary for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection_summary">Don\'t use a Wi-Fi network unless it has a good Internet connection</string>
+    <!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
+    <string name="wifi_setting_sleep_policy_title">Keep Wi-Fi on during sleep</string>
+    <!-- Generic error message when the sleep policy could not be set. -->
+    <string name="wifi_setting_sleep_policy_error">There was a problem changing the setting</string>
+    <!-- Checkbox title for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations">Wi-Fi optimization</string>
+    <!-- Checkbox summary for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations_summary">Minimize battery usage when Wi-Fi is on</string>
+    <!-- Action bar text message to manually add a wifi network [CHAR LIMIT=20]-->
+    <string name="wifi_add_network">Add network</string>
+    <!-- Header for the list of wifi networks-->
+    <string name="wifi_access_points">Wi-Fi networks</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pbc">WPS Push Button</string>
+    <!-- Content description for menu button in Wifi setup. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="wifi_menu_more_options">More options</string>
+    <!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pin">WPS Pin Entry</string>
+    <!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
+    <string name="wifi_menu_p2p">Wi-Fi Direct</string>
+    <!-- Menu option to scan Wi-Fi networks -->
+    <string name="wifi_menu_scan">Scan</string>
+    <!-- Menu option to Wi-Fi advanced settings -->
+    <string name="wifi_menu_advanced">Advanced</string>
+    <!-- Menu option to connect to a Wi-Fi network -->
+    <string name="wifi_menu_connect">Connect to network</string>
+    <!-- Menu option to delete a Wi-Fi network -->
+    <string name="wifi_menu_forget">Forget network</string>
+    <!-- Menu option to modify a Wi-Fi network configuration -->
+    <string name="wifi_menu_modify">Modify network</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is off and network list is empty [CHAR LIMIT=50]-->
+    <string name="wifi_empty_list_wifi_off">To see available networks, turn Wi-Fi on.</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is on and network list is empty [CHAR LIMIT=50]-->
+    <string name="wifi_empty_list_wifi_on">Searching for Wi-Fi networks\u2026</string>
+    <!-- Wi-Fi settings. title for setup other network button [CHAR LIMIT=35]-->
+    <string name="wifi_other_network">Other network\u2026</string>
+    <!-- Wi-Fi settings. content description for more button [CHAR LIMIT=50]-->
+    <string name="wifi_more">More</string>
+    <!-- Wi-Fi settings. wps menu title [CHAR LIMIT=25]-->
+    <string name="wifi_setup_wps">Automatic setup (WPS)</string>
+    <!-- Message informing that wifi is required during setup [CHAR LIMIT=NONE] -->
+    <string name="wifi_required_info_text">To complete setup, your tablet needs access to Wi-Fi. After setup, you can switch between mobile data and Wi-Fi.</string>
+    
+        <!-- Dialog for Access Points --> <skip />
+    <!-- Label to show/hide advanced options -->
+    <string name="wifi_show_advanced">Show advanced options</string>
+    <!-- Title for the WPS setup dialog [CHAR LIMIT=50] -->
+    <string name="wifi_wps_setup_title">Wi-Fi Protected Setup</string>
+    <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_setup_msg">Starting WPS\u2026</string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pbc">Press the Wi-Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi-Fi router. The setup can take up to two minutes to complete.</string>
+    <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
+    <string name="wifi_wps_connected">Connected to Wi-Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    <!-- Text displayed when WPS setup is in progress [CHAR LIMIT=150] -->
+    <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+     <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+     <!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_auth">Authentication failure. Please try again.</string>
+     <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+    <!-- Label for the SSID of the network -->
+    <string name="wifi_ssid">Network SSID</string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security">Security</string>
+    <!-- Label for the signal strength of the connection -->
+    <string name="wifi_signal">Signal strength</string>
+    <!-- Label for the status of the connection -->
+    <string name="wifi_status">Status</string>
+    <!-- Label for the link speed of the connection -->
+    <string name="wifi_speed">Link speed</string>
+    <!-- Label for the IP address of the connection -->
+    <string name="wifi_ip_address">IP address</string>
+    <!-- Hint text for the IP address -->
+        <string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
+    <!-- Label for the EAP method of the network -->
+    <string name="wifi_eap_method">EAP method</string>
+    <!-- Label for the phase2 -->
+    <string name="please_select_phase2">Phase 2 authentication</string>
+    <!-- Label for the EAP CA certificate of the network -->
+    <string name="wifi_eap_ca_cert">CA certificate</string>
+    <!-- Label for the EAP user certificate of the network -->
+    <string name="wifi_eap_user_cert">User certificate</string>
+    <!-- Label for the EAP identity of the network -->
+    <string name="wifi_eap_identity">Identity</string>
+    <!-- Label for the EAP anonymous identity of the network -->
+    <string name="wifi_eap_anonymous">Anonymous identity</string>
+    <!-- Label for the password of the secured network -->
+    <string name="wifi_password">Password</string>
+    <!-- Label for the check box to show password -->
+    <string name="wifi_show_password">Show password</string>
+    <!-- Label for the spinner to show ip settings [CHAR LIMIT=25] -->
+    <string name="wifi_ip_settings">IP settings</string>
+    <!-- Hint for unchanged fields -->
+    <string name="wifi_unchanged">(unchanged)</string>
+    <!-- Hint for unspecified fields -->
+    <string name="wifi_unspecified">(unspecified)</string>
+    <!-- Summary for the remembered network. -->
+    <string name="wifi_remembered">Saved</string>
+    <!-- Status for networks disabled for unknown reason -->
+    <string name="wifi_disabled_generic">Disabled</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure -->
+    <string name="wifi_disabled_network_failure">Avoided poor Internet connection</string>
+    <!-- Status for networks disabled from authentication failure (wrong password
+         or certificate). -->
+    <string name="wifi_disabled_password_failure">Authentication problem</string>
+    <!-- Summary for the remembered network but currently not in range. -->
+    <string name="wifi_not_in_range">Not in range</string>
+    <!-- Substring of status line when Wi-Fi Protected Setup (WPS) is available and
+         string is listed first [CHAR LIMIT=20]-->
+    <string name="wifi_wps_available_first_item">WPS available</string>
+    <!-- Substring of wifi status when Wi-Fi Protected Setup (WPS) is available and
+         string is listed after a wifi_secured_* string-->
+    <string name="wifi_wps_available_second_item">\u0020(WPS available)</string>
+        <!-- Substring of wifi status for wifi with authentication.  This version is for when the
+         string is first in the list (titlecase in english) -->
+    <string name="wifi_secured_first_item">Secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+    <!-- Substring of wifi status for wifi with authentication.  This version is for when the
+         string is not first in the list (lowercase in english) -->
+    <string name="wifi_secured_second_item">, secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+        <!-- Button label to connect to a Wi-Fi network -->
+    <string name="wifi_connect">Connect</string>
+    <!-- Failured notification for connect -->
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget">Forget</string>
+    <!-- Failured notification for forget -->
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+    <!-- Button label to save a Wi-Fi network configuration -->
+    <string name="wifi_save">Save</string>
+    <!-- Failured notification for save -->
+    <string name="wifi_failed_save_message">Failed to save network</string>
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_cancel">Cancel</string>
+    <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
+    <string name="wifi_skip_anyway" msgid="5205612884736051138">Skip anyway</string>
+    <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
+    <string name="wifi_dont_skip">Don\'t skip</string>
+
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="tablet" msgid="6518433975501257341">WARNING: You may incur extra carrier data charges.\n\nTablet setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (phone) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="default" msgid="4376150150678208848">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="tablet" msgid="5647058314212144925">WARNING: The tablet won\'t be able to verify that your software is up to date.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="default" msgid="1288483646141987070">WARNING: The phone won\'t be able to verify that your software is up to date.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="tablet" msgid="2006689630582761529">The tablet was unable to connect to this Wi-Fi network.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="default" msgid="8220901976514642385">The phone was unable to connect to this Wi-Fi network.</string>
+    
+        <!-- Wi-Fi Advanced Settings --> <skip />
+    <!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
+    <string name="wifi_advanced_titlebar">Advanced Wi-Fi</string>
+    <!-- Wi-Fi settings screen, setting title for setting the band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_title">Wi-Fi frequency band</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_advanced_mac_address_title">MAC address</string>
+    <!-- Title of the screen to adjust IP settings -->
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's current IP address. -->
+    <string name="wifi_advanced_ip_address_title">IP address</string>
+
+    <!-- Wifi Advanced settings.  Used as a label under the shortcut icon that goes to Wifi advanced settings. [CHAR LIMIT=20]-->
+    <string name="wifi_advanced_settings_label">IP settings</string>
+    <!-- Menu item to save the IP settings -->
+    <string name="wifi_ip_settings_menu_save">Save</string>
+    <!-- Menu ietm to cancel the IP settings -->
+    <string name="wifi_ip_settings_menu_cancel">Cancel</string>
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_ip_address">Type a valid IP address.</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_gateway">Type a valid gateway address.</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_dns">Type a valid DNS address.</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Type a network prefix length between 0 and 32.</string>
+    <!-- Label for the DNS (first one) -->
+    <string name="wifi_dns1">DNS 1</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
+    <!-- Label for the DNS (second one)-->
+    <string name="wifi_dns2">DNS 2</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint" translatable="false">8.8.4.4</string>
+    <!-- Label for the gateway of the network -->
+    <string name="wifi_gateway">Gateway</string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
+    <!-- Label for the network prefix of the network [CHAR LIMIT=25]-->
+    <string name="wifi_network_prefix_length">Network prefix length</string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint" translatable="false">24</string>
+    
+    <!-- Wi-Fi p2p / Wi-Fi Direct settings -->
+    <!-- Used in the 1st-level settings screen to launch Wi-fi Direct settings [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
+    <string name="wifi_p2p_device_info">Device information</string>
+    <string name="wifi_p2p_persist_network">Remember this connection</string>
+    <!-- Menu option to discover peers-->
+    <string name="wifi_p2p_menu_search">Search for devices</string>
+    <!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_menu_searching">Searching\u2026</string>
+    <!-- Menu option to Rename-->
+    <string name="wifi_p2p_menu_rename">Rename device</string>
+    <!-- Title for available p2p devices -->
+    <string name="wifi_p2p_peer_devices">Peer devices</string>
+    <!-- Title for remembered p2p groups -->
+    <string name="wifi_p2p_remembered_groups">Remembered groups</string>
+    <!-- Toast text for a failed connection initiation -->
+    <string name="wifi_p2p_failed_connect_message">Couldn\'t connect.</string>
+    <!-- Message text for failure to rename -->
+    <string name="wifi_p2p_failed_rename_message">Failed to rename device.</string>
+    <!-- Title for disconnect dialog -->
+    <string name="wifi_p2p_disconnect_title">Disconnect?</string>
+    <!-- Message text for disconnection from one device-->
+    <string name="wifi_p2p_disconnect_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> will end.</string>
+    <!-- Message text for disconnection from multiple devices-->
+    <string name="wifi_p2p_disconnect_multiple_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> and <xliff:g id="peer_count">%2$s</xliff:g> other devices will end.</string>
+    <!-- Title for cancel connect dialog -->
+    <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
+    <!-- Message text for disconnection from one device-->
+    <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with <xliff:g id="peer_name">%1$s</xliff:g>?</string>
+    <!-- Message text for remembered group deletion-->
+    <string name="wifi_p2p_delete_group_message">Forget this group?</string>
+    
+    <!-- Wifi AP settings-->
+    <!-- Label for wifi tether checkbox. Toggles Access Point on/off -->
+    <string name="wifi_tether_checkbox_text">Portable Wi-Fi hotspot</string>
+    <!-- Summary text when turning hotspot on -->
+    <string name="wifi_tether_starting">Turning hotspot on\u2026</string>
+    <!-- Summary text when turning hotspot off -->
+    <string name="wifi_tether_stopping">Turning off hotspot\u2026</string>
+    <!-- Subtext for wifi tether checkbox on success -->
+    <string name="wifi_tether_enabled_subtext">Portable hotspot <xliff:g id="network_ssid">%1$s</xliff:g> active</string>
+    <!-- Subtext for wifi tether checkbox on failure -->
+    <string name="wifi_tether_failed_subtext">Portable Wi-Fi hotspot error</string>
+    <!-- Used to open the ssid and security dialog for Wifi Access Point -->
+    <string name="wifi_tether_configure_ap_text">Set up Wi-Fi hotspot</string>
+    <!-- Subtext on configuration preference to indicate SSID and security chosen -->
+    <string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> portable Wi-Fi hotspot</string>
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
+    
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Wi-Fi Testing on the diagnostic screen-->
+    <string name="testing_wifi_info" translatable="false">Wi-Fi information</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item for WifiManager disableNetwork API-->
+    <string name="disableNetwork" translatable="false">disableNetwork</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item for WifiManager enableNetwork API-->
+    <string name="enableNetwork" translatable="false">enableNetwork</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item for WifiManager disconnect API-->
+    <string name="disconnect" translatable="false">disconnect</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item for WifiManager getConfiguredNetworks API-->
+    <string name="getConfiguredNetworks" translatable="false">getConfiguredNetworks</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item for WifiManager getConnectionInfo API-->
+    <string name="getConnectionInfo" translatable="false">getConnectionInfo</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item on Wifi information screen-->
+    <string name="wifi_api_test" translatable="false">Wi-Fi API</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item on Wifi information screen-->
+    <string name="wifi_status_test" translatable="false">Wi-Fi status</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Button text on Wifi Status screen-->
+    <string name="wifi_update" translatable="false">Refresh stats</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="wifi_state_label" translatable="false">Wi-Fi state:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="network_state_label" translatable="false">Network state:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+        Label on Wifi Status screen-->
+    <string name="supplicant_state_label" translatable="false">Supplicant state:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="rssi_label" translatable="false">RSSI:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="bssid_label" translatable="false">BSSID:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="ssid_label" translatable="false">SSID:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="hidden_ssid_label" translatable="false">Hidden SSID:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="ipaddr_label" translatable="false">IPaddr:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="macaddr_label" translatable="false">MAC addr:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="networkid_label" translatable="false">Network ID:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="link_speed_label" translatable="false">Link speed:</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Status screen-->
+    <string name="scan_list_label" translatable="false">Scan results:</string>
+    
+        <!-- wifi state values-->
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
+    <string name="wifi_state_disabling" translatable="false">Disabling</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
+    <string name="wifi_state_disabled" translatable="false">Disabled</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
+    <string name="wifi_state_enabling" translatable="false">Enabling</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
+    <string name="wifi_state_enabled" translatable="false">Enabled</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
+    <string name="wifi_state_unknown" translatable="false">Unknown</string>
+
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Menu item on Wifi information screen-->
+    <string name="wifi_config_info" translatable="false">Wi-Fi config</string>
+    <!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
+         Label on Wifi Configuration screen-->
+    <string name="config_list_label" translatable="false">Configured networks</string>
+</resources>

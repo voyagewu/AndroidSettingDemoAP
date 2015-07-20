@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Wifi -->
+
+    <header
+        android:id="@+id/wifi_settings"
+        android:fragment="com.example.android_settings.wifi.WifiSettings"
+        android:icon="@drawable/ic_settings_wireless"
+        android:title="@string/wifi_settings_title" />
+
+    <!-- Sound -->
+
+    <header
+        android:id="@+id/sound_settings"
+        android:fragment="com.example.android_settings.sound.SoundSettings"
+        android:icon="@drawable/ic_settings_sound"
+        android:title="@string/sound_settings" />
+
+    <!-- Display -->
+
+    <header
+        android:id="@+id/display_settings"
+        android:fragment="com.example.android_settings.display.DisplaySettings"
+        android:icon="@drawable/ic_settings_display"
+        android:title="@string/display_settings" />
+
+</preference-headers>
